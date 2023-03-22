@@ -58,5 +58,4 @@ Deliverables: On your website,
 - For each task, report the test accuracy of your best model, in comparison with your results from Q1 & Q2.
 - Visualize results in comparison to ones obtained in the earlier parts.
 
-Note that you need to implement at least one of the above locality methods. That will be of worth 10 points. When you implement more locality methods, that will be considered as a bonus of 10 points (per method implemented). Implementing two methods is of worth 10 + 10 bonus points, and three methods is of 10 + 20 bonus points.
-
+Note that you need to implement **at least one** of the above locality methods. That will be of worth 10 points. Each extra implemented method will be of worth 10 bonus points. To get full marks for this question, you will be implementing three methods in total.
