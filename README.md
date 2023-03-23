@@ -49,13 +49,13 @@ Deliverables: On your website, for each experiment
 - For each task, report test accuracy and visualization on a few samples, in comparison with your results from Q1 & Q2.
 - Provide some interpretation in a few sentences.
 
-## Q4. Bonus Question - Locality (10 points + 20 bonus points)
-Incorporate certain kind of locality as covered in the lecture (e.g. implement PointNet++, DGCNN, Transformers (refer: https://arxiv.org/pdf/2012.09164v2.pdf), etc).
+## Q4. Bonus Question - expressive architectures (10 points + 20 bonus points)
+Instead of using a vanilla PointNet, improve the base model using one of [PointNet++](https://arxiv.org/abs/1706.02413), or [DGCNN](https://arxiv.org/abs/1801.07829), or [Point Transformers](https://arxiv.org/abs/2012.09164). Your implementation need not leverage all details of these models (e.g. you can use different levels of hierarchy), but should borrow the design key principles and should allow some improvement over the base PointNet model.
 
 Deliverables: On your website, 
 
-- Specify the model you have implemented.
+- Describe the model you have implemented.
 - For each task, report the test accuracy of your best model, in comparison with your results from Q1 & Q2.
 - Visualize results in comparison to ones obtained in the earlier parts.
 
-Note that you need to implement **at least one** of the above locality methods. That will be of worth 10 points. Each extra implemented method will be of worth 10 bonus points. To get full marks for this question, you will be implementing three methods in total.
+Note that you need to implement **at least one** of the above locality methods. That will be of worth 10 points. Each extra implemented method will be of worth 10 bonus points each. 
