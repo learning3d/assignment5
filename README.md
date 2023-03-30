@@ -55,7 +55,7 @@ Instead of using a vanilla PointNet, improve the base model using one of [PointN
 Deliverables: On your website, 
 
 - Describe the model you have implemented.
-- For each task, report the test accuracy of your best model, in comparison with your results from Q1 & Q2.
+- For one of the tasks (either segmentation or classification), report the test accuracy of your best model, in comparison with your results from Q1 & Q2.
 - Visualize results in comparison to ones obtained in the earlier parts.
 
 Note that you need to implement **at least one** of the above locality methods. That will be of worth 10 points. Each extra implemented method will be of worth 10 bonus points each. 
