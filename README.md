@@ -13,7 +13,7 @@ Implement the classification model in `models.py`.
 
 - Output: probability distribution indicating predicted classification (Dimension: Batch * Number of Classes)
 
-Complete model initialization and prediction in `train.py` and `eval_cls.py`. Run `python train.py --task cls` to train the model, and `python eva_cls.py` for evaluation. Check out the arguments and feel free to modify them as you want.
+Complete model initialization and prediction in `train.py` and `eval_cls.py`. Run `python train.py --task cls` to train the model, and `python eval_cls.py` for evaluation. Check out the arguments and feel free to modify them as you want.
 
 Deliverables: On your website, 
 
