@@ -82,6 +82,7 @@ def viz_seg (verts, labels, path, device):
 
     renderer = get_points_renderer(image_size=image_size, background_color=background_color, device=device)
     rend = renderer(point_cloud, cameras=c).cpu().numpy() # (30, 256, 256, 3)
+    rend = (rend * 255).astype(np.uint8)
 
     imageio.mimsave(path, rend, fps=15)
 
