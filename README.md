@@ -3,6 +3,15 @@ In this assignment, you will implement a PointNet based architecture for classif
 
 `models.py` is where you will define model structures. `train.py` loads data, trains models, logs trajectories and saves checkpoints. `eval_cls.py` and `eval_seg.py` contain script to evaluate model accuracy and visualize segmentation result. Feel free to modify any file as needed.
 
+# Table of Contents
+
+- [Environment Setup](#environment-setup)
+- [Data Preparation](#data-preparation)
+- [Q1. Classification Model (40 points)](#q1-classification-model-40-points)
+- [Q2. Segmentation Model (40 points)](#q2-segmentation-model-40-points)
+- [Q3. Robustness Analysis (20 points)](#q3-robustness-analysis-20-points)
+- [Q4. Bonus Question - Locality (20 points)](#q4-bonus-question---locality-20-points)
+
 ## Environment Setup
 You should be able to use the environment used for previous assignments. If you need to create a new environment, please follow the set up instruction at [Assignment1](https://github.com/learning3d/assignment1). We include the same requirements.txt as A1 for your convenience.
 
