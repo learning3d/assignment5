@@ -1,9 +1,9 @@
- ## Overview
+## Overview
 In this assignment, you will implement a PointNet based architecture for classification and segmentation with point clouds (you don't need to worry about the tranformation blocks). Q1 and Q2 focus on implementing, training and testing models. Q3 asks you to quantitatively analyze model robustness. Q4 (extra point) involves locality. 
 
 `models.py` is where you will define model structures. `train.py` loads data, trains models, logs trajectories and saves checkpoints. `eval_cls.py` and `eval_seg.py` contain script to evaluate model accuracy and visualize segmentation result. Feel free to modify any file as needed.
 
-# Table of Contents
+## Table of Contents
 
 - [Environment Setup](#environment-setup)
 - [Data Preparation](#data-preparation)
