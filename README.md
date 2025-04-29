@@ -64,11 +64,11 @@ Deliverables: On your website
 - Visualize segmentation results of at least 5 objects (including 2 bad predictions) with corresponding ground truth, report the prediction accuracy for each object, and provide interpretation in a few sentences.
   
 ## Q3. Robustness Analysis (20 points) 
-Conduct 2 experiments to analyze the robustness of your learned model. Some possible suggestions are:
+Conduct 2 experiments to analyze the robustness of your learned model. Each experiment is worth 10 points. A maximum of 20 points is possible for this question. Some possible suggestions are:
 1. You can rotate the input point clouds by certain degrees and report how much the accuracy falls
 2. You can input a different number of points points per object (modify `--num_points` when evaluating models in `eval_cls.py` and `eval_seg.py`)
 
-Feel free to try other ways of probing the robustness. Each experiment is worth 10 points.
+Please also feel free to try other ways of probing the robustness. 
 
 Deliverables: On your website, for each experiment
 
