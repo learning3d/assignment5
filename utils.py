@@ -1,5 +1,6 @@
 import os
 import torch
+import numpy as np
 import pytorch3d
 from pytorch3d.renderer import (
     AlphaCompositor,
@@ -70,7 +71,7 @@ def viz_seg (verts, labels, path, device):
 
     sample_verts = verts.unsqueeze(0).repeat(30,1,1).to(torch.float)
     sample_labels = labels.unsqueeze(0)
-    sample_colors = torch.zeros((1,10000,3))
+    sample_colors = torch.zeros((1, verts.shape[0], 3))
 
     # Colorize points based on segmentation labels
     for i in range(6):
